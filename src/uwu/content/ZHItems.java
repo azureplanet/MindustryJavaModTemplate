@@ -8,8 +8,8 @@ import static arc.graphics.Color.valueOf;
 public class ZHItems implements LoadContent {
 
     public static Item
-            paper, xrs, xdg, sylt, sxym, mh, cat, coin, jlb, jym, hd, hly, dp, cdn, bws, alpha
-            /*前后顺序：纸，旭日升，小蛋糕，石油辣条，棉花，猫猫虫，零钱，健力宝，甲一麦，核弹，海螺因，豆皮，菜刀牛，霸王丝，alpha*/;
+            paper, xrs, xdg, sylt, sxym, mh, cat, coin, jlb, jym, hd, hly, dp, cdn, bws, alpha, sxym
+            /*前后顺序：纸，旭日升，小蛋糕，石油辣条，棉花，猫猫虫，零钱，健力宝，甲一麦，核弹，海螺因，豆皮，菜刀牛，霸王丝，alpha, 三鲜伊面*/;
 
     @Override
     public void load() {
@@ -74,6 +74,9 @@ public class ZHItems implements LoadContent {
         alpha = new Item("alpha", valueOf("D6AC2DFF")) {{
             cost = 0.5f;
             frames = 8;
+        }};
+        sxym = new Item("sxym", valueOf("D6AC2DFF")) {{
+            cost = 0.5f;
         }};
         
     }
