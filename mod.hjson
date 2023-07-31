@@ -1,23 +1,11 @@
-#the mod name as displayed in-game
-displayName: "Java Mod Template"
-
-#the internal name of your mod
-name: "example-java-mod"
-
-#your name
-author: "Updated"
-
-#the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
-
-#the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
-
-#the mod version
-version: 1.0
-
-#the minimum game build required to run this mod
-minGameVersion: 140
-
-#this is a java mod
+name: aughhhh
+displayName: 《整活像素》
+author: 猫猫贴贴
+main: uwu.UwuMod
+description: "这个mod有很多整活の东西\n[#FFFFFF]特别感谢:\n[#FFFFFF]GodlenGlow
+[red]警告：这个mod有很多破坏平衡性的内容，请自行取舍\n
+[yellow]by anuke\n"
+version: beta0.01
+minGameVersion: 141
 java: true
+//license: MIT LICENSE
