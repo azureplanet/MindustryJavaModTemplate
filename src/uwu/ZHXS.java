@@ -22,6 +22,6 @@ public class ZHXS {
     }
     
     public static <T extends Drawable> T getModDrawable(String name){
-        return Core.atlas.getDrawable(AP.modName + "-" + name);
+        return Core.atlas.getDrawable(ZHXS.modName + "-" + name);
     }
 }
