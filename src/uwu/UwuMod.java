@@ -17,6 +17,16 @@ public class UwuMod extends Mod {
 
     public UwuMod(){
         Log.info("Loaded ZHXS constructor.");
+        
+         Events.on(EventType.ClientLoadEvent.class, e -> {
+            ZHXS.ui.mainMenu.show();
+        });
+    }
+    
+    @Override
+    public void init() {
+        super.init();
+        ZHXS.init();
     }
     
     @Override
