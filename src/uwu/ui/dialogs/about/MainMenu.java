@@ -1,4 +1,4 @@
-package uwu.ui.dialogs.AboutMod;
+package uwu.ui.dialogs.about;
 
 import arc.func.Prov;
 import arc.graphics.Color;
