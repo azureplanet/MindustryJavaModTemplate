@@ -20,12 +20,6 @@ public class UwuMod extends Mod {
     }
     
     @Override
-    public void init() {
-        super.init();
-        ZHXS.init();
-    }
-    
-    @Override
     public void loadContent(){
         Log.info("Loading ZHXS content.");
         for (LoadContent loadContent : loadContents) loadContent.load();
